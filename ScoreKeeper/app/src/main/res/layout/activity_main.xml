@@ -20,6 +20,7 @@
         />
 
     <TextView
+        android:id="@+id/result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="0"
@@ -30,6 +31,7 @@
         />
 
     <Button
+        android:onClick="incrementScore"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="+"
